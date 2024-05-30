@@ -10,7 +10,7 @@ import random
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/vnnkli/{rl}"
-    await client.send_photo(message.chat.id,url,caption="- Join.Channel.SouRce : @XB_CH ⋅",
+    await client.send_photo(message.chat.id,url,caption="- Join.Channel.SouRce : @WA_ADRENALEN ⋅",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -27,7 +27,7 @@ reply_markup=InlineKeyboardMarkup(
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/yoipopl{rl}"
-    await client.send_photo(message.chat.id,url,caption="- Join.Channel.SouRce : @XB_CH ⋅",
+    await client.send_photo(message.chat.id,url,caption="- Join.Channel.SouRce : @WA_ADRENALEN ⋅",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -43,7 +43,7 @@ reply_markup=InlineKeyboardMarkup(
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/LoreBots7/{rl}"
-    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @XB_CH ⋅",
+    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @WA_ADRENALEN ⋅",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -59,7 +59,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/GifWaTaN/{rl}"
-    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @XB_CH ⋅",
+    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @WA_ADRENALEN ⋅",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -77,7 +77,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/vvyuol/{rl}"
-    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @XB_CH ⋅",
+    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @WA_ADRENALEN ⋅",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -93,7 +93,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/vgbmm/{rl}"
-    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @XB_CH ⋅",
+    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @WA_ADRENALEN ⋅",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -109,7 +109,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/opuml/{rl}"
-    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @XB_CH ⋅",
+    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @WA_ADRENALEN ⋅",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -124,7 +124,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,50)
     url = f"https://t.me/ggcnjj/{rl}"
-    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @XB_CH ⋅",
+    await client.send_audio(message.chat.id,url,caption="- Join.Channel.SouRce : @WA_ADRENALEN ⋅",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
