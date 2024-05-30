@@ -30,74 +30,74 @@ from pyrogram.errors import FloodWait
 @app.on_message(filters.command(["سورس","السورس","مصنع","صانع"], ""), group=221213)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/9625f4182daf437e82fae.jpg",
-        caption=f"""╭── • [⌯𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑⌯](https://t.me/DEV_ADRENALEN) • ──╮\n[⌯𝐒𝐔𝐏𝐏𝐔𝐑𝐓.𝐒𝐎𝐔𝐑𝐂𝐄⌯](https://t.me/BaR_AdRenalen)\n[⌯𝐂𝐇𝐀𝐍𝐍𝐄𝐋.𝐒𝐎𝐔𝐑𝐂𝐄⌯](https://t.me/WA_AdRenalen)\n[⌯𝐁𝐎𝐓.𝐄𝐋𝐒𝐎𝐔𝐑𝐂𝐄⌯](https://t.me/Xx_MUOSIC_BOT)\n╰── • [⌯𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑⌯](https://t.me/DEV_ADRENALEN) • ──╯""",
+        photo=f"https://telegra.ph/file/d7f84f3abf21196ccd7e5.jpg",
+        caption=f"""╭── • [⌯𝐃𝐞𝐕 𝐃𝐞𝐕𝐞𝐋⌯](https://t.me/XB_DV) • ──╮\n[⌯𝐃𝐞𝐕 𝐍𝐚𝐑𝐮𝐓𝐨⌯](https://t.me/GGCQU)\n[⌯𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐞𝐍⌯](https://t.me/SOURCE_MARVEN)\n╰── • [⌯𝐃𝐞𝐕 𝐒𝐨𝐔𝐫𝐂𝐞⌯](https://t.me/DEV_MARVEN) • ──╯""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                     InlineKeyboardButton(
-                        "‹ 𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑 › ", url=f"https://t.me/DEV_ADRENALEN"),
+                        "‹ 𝐃𝐞𝐕 𝐃𝐞𝐕𝐞𝐋 › ", url=f"https://t.me/XB_DV"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ›", url=f"https://t.me/WA_AdRenalen"), 
+                        "‹ 𝐃𝐞𝐕 𝐍𝐚𝐑𝐮𝐓𝐨 ›", url=f"https://t.me/GGCQU"), 
                     InlineKeyboardButton(
-                        "‹ 𝐒𝐔𝐏𝐏𝐔𝐑𝐓 ›", url=f"https://t.me/BAR_ADRENALEN"),
+                        "‹ 𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐞𝐍 ›", url=f"https://t.me/SOURCE_MARVEN"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
+                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"https://t.me/{bot_username}?startgroup=True"),
             ]
         ]
          ),parse_mode=enums.ParseMode.MARKDOWN)
 
 
 
-@app.on_message(filters.command(["حمو المرازي","حمو"], ""), group=221212)
+@app.on_message(filters.command(["مطور السورس","ناروتو"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/71e9ee5da45196ec2a5b0.jpg",
-        caption=f"""• ⌯ 𝐓𝐇𝐄.𝐒𝐎𝐔𝐑𝐂𝐄.𝐀𝐃𝐑𝐄𝐍𝐀𝐋𝐄𝐍 ⌯ •\n- حمو المرازي الـ شء 💘😂 ⋅""",
+        photo=f"https://telegra.ph/file/6d43ed90307453f7cbc6f.jpg",
+        caption=f"""ғᴀᴄᴋ ʏᴏᴜ ʟᴏᴠᴇ ↻.""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                     InlineKeyboardButton(
-                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
+                        " ˖ 𝐃𝐞𝐕 𝐍𝐚𝐑𝐮𝐓𝐨 ˖ ", url=f"https://t.me/GGCQU"),
                 ],[
                     InlineKeyboardButton(
-                        "⌯ حمو الـ مرازي 💘 ⋅ ⌯", url=f"https://t.me/H4_il"), 
+                        " ˖ 𝐃𝐞𝐕 𝐂𝐡𝐚𝐧𝐞𝐞𝐋 ˖ ", url=f"https://t.me/FPPCl"), 
                     InlineKeyboardButton(
-                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
+                        " ˖ 𝐁𝐨𝐓 𝐆𝐞𝐆𝐞 ˖ ", url=f"https://t.me/GI_EGYBOT"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
+                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/GI_EGYBOT?startgroup=new"),
             ]
         ]
          ),
      )
 
-@app.on_message(filters.command(["سحس","حسين"], ""), group=221212)
+@app.on_message(filters.command(["مبرمج السورس","ديڤل"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f6f7e37a411a115641e56.jpg",
-        caption=f"""• ⌯ 𝐓𝐇𝐄.𝐒𝐎𝐔𝐑𝐂𝐄.𝐀𝐃𝐑𝐄𝐍𝐀𝐋𝐄𝐍 ⌯ •\n- حسين الـ شء 💘😂 ⋅""",
+        photo=f"https://telegra.ph/file/1ed441c02d9f8972b9e40.jpg",
+        caption=f"""دمـاغـي زحـمـه م فـاضـي ،، مـتـجـيـش فـطـريـقـي عـشـان مسـوحـكـش""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                     InlineKeyboardButton(
-                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
+                        " ‹ 𝐃𝐞𝐕 𝐃𝐞𝐕𝐞𝐋 › ", url=f"https://t.me/XB_DV"),
                 ],[
                     InlineKeyboardButton(
-                        "⌯ حسين الحوب 💘 ⋅ ⌯", url=f"https://t.me/Hh_Uu_SS_Ee_Ii_Nn"), 
+                        "‹ 𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐞𝐍 ›", url=f"https://t.me/SOURCE_MARVEN"), 
                     InlineKeyboardButton(
-                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
+                        "‹ 𝐁𝐨𝐓 𝐍𝐞𝐌𝐨 ›", url=f"https://t.me/DffD1bot"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
+                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/DffD1bot?startgroup=new"),
             ]
         ]
          ),
      )
 
-@app.on_message(filters.command(["صولو","سولو"], ""), group=221212)
+@app.on_message(filters.command(["oooo","pppppp"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo( 
       photo=f"https://telegra.ph/file/81471e464fd78152dbdec.jpg",
@@ -120,7 +120,7 @@ async def huhh(client: Client, message: Message):
          ),
      )
 
-@app.on_message(filters.command(["فرعون","حرب"], ""), group=221212)
+@app.on_message(filters.command(["lllllll","lllllll"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo( 
       photo=f"https://telegra.ph/file/1d76ff4496515c122c251.jpg",
@@ -146,7 +146,7 @@ async def huhh(client: Client, message: Message):
 
 
     
-@app.on_message(filters.command(["عمر فيرس","فيرس"], ""), group=221212)
+@app.on_message(filters.command(["kkkkkk","kkkkkk"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo( 
       photo=f"https://telegra.ph/file/783c1ff05a1480c023f9e.jpg",
