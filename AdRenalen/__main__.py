@@ -49,7 +49,7 @@ async def init():
     except:
         pass
     await Omar.decorators()
-    LOGGER("AdRenalen").info("Dev.SuoRce @DEV_ADRENALEN The.SouRce.AdRenalen @WA_ADRENALEN @BAR_ADRENALEN"
+    LOGGER("AdRenalen").info("Dev.SuoRce @DEV_MARVEN The.SouRc @SOURCE_MARVEN"
             )
     await idle()
     await app.stop()
