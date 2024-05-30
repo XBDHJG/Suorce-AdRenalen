@@ -1,0 +1,73 @@
+{
+        "name": "• ⌯ 𝐓𝐇𝐄.𝐒𝐎𝐔𝐑𝐂𝐄.𝐀𝐃𝐑𝐄𝐍𝐀𝐋𝐄𝐍 ⌯ •",
+    "description": "سورس ادرينالين لتشغيل القرآن والميوزك في المكالمة الصوتيه في التيلجرام ♡ ,,",
+    "logo": "https://telegra.ph/file/6b073b212869b5630968f.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "AdRenalen",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "⦗ https://my.telegram.org ⦘ ↫ اي بي ايدي للمطور احصل هليه من هنا",
+        "value": "26566005",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "⦗ https://my.telegram.org ⦘ ↫ اي بي هاش للمطور احصل هليه من هنا",
+        "value": "690c0394fc7bf850afd91ab0f66160b2",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "⦗ @Botfather ⦘ ↫ توكن البوت احصل عليه من هنا",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "⦗ https://cloud.mongodb.com ⦘ ↫ كود المنجو دي بي احصل عليه من هنا",
+        "value": "mongodb+srv://ilbared:ilbared@cluster0.absiyh8.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "⦗ 1924832439 ⦘ ↫ ايدي المطور للبوت",
+        "value": "1924832439",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "⦗ ⦘ ↫ كود جلسه للحساب المساعد بايرو جرام 2",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "⦗ https://dashboard.heroku.com/account ⦘ ↫ كود Apk هيروكو احصل عليه من هنا ",
+        "value": "d8390701-c1c3-4362-a6f7-69cf71d2edde",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "حط نفس النيم الي فوق =",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": " ايدي جروب السجل وحط قبل الايدي -100 ",
+        "value": "-1002107304490",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
