@@ -1,7 +1,7 @@
 #𝙲𝙷.𝚂𝙾𝚄𝚁𝙲𝙴 : @WA_ADRENALEN
 #𝙳𝙴𝚅 𝙰𝙳𝚁𝙴𝙽𝙰𝙻𝙴𝙽 : @DEV_ADRENALEN
 #𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @BAR_ADRENALEN
-#Omar AdRenalen تم التعديل بواسطة 🌺 ⋅
+#Omar AdRenalen تم التعديل بواسطة 🎸 ⋅
 
 from pyrogram import filters, Client
 from AdRenalen import app
@@ -18,7 +18,7 @@ async def strcall(client, message):
     assistant = await group_assistant(Omar,message.chat.id)
     try:
         await assistant.join_group_call(message.chat.id, AudioPiped("./AdRenalen/assets/AdRenalen_Call.mp3"), stream_type=StreamType().pulse_stream)
-        text="- الحبايب الي ف الكول 🌺 ⋅\n"
+        text="- الحبايب الي ف الكول 🎸 ⋅\n"
         participants = await assistant.get_participants(message.chat.id)
         k =0
         for participant in participants:
@@ -37,10 +37,10 @@ async def strcall(client, message):
     except NoActiveGroupCall:
         await message.reply(f"سلامت نظرك الكول مش مفتوح اصلا 😂💘 ⋅")
     except TelegramServerError:
-        await message.reply(f"يوجد خطأ ارجو المحاولة بعد دقيقة 🌺 ⋅")
+        await message.reply(f"يوجد خطأ ارجو المحاولة بعد دقيقة 🎸 ⋅")
 
     except AlreadyJoinedError:
-        text="- الحبايب الي ف الكول 🌺 ⋅\n"
+        text="- الحبايب الي ف الكول 🎸 ⋅\n"
         participants = await assistant.get_participants(message.chat.id)
         k =0
         for participant in participants:
@@ -64,34 +64,34 @@ async def brah2(client, message):
     ho = divmod(ma[0], 60)
     day = divmod(ho[0], 24)
     if da < 60:
-       await message.reply(f"تم انهاء مكالمة الفيديو مدتها {da} ثواني 🌺 ⋅")        
+       await message.reply(f"تم انهاء مكالمة الفيديو مدتها {da} ثواني 🎸 ⋅")        
     elif 60 < da < 3600:
         if 1 <= ma[0] < 2:
-            await message.reply(f" تم انهاء مكالمة الفيديو مدتها دقيقه 🌺 ⋅")
+            await message.reply(f" تم انهاء مكالمة الفيديو مدتها دقيقه 🎸 ⋅")
         elif 2 <= ma[0] < 3:
-            await message.reply(f" تم انهاء مكالمة الفيديو مدتها دقيقتين 🌺 ⋅")
+            await message.reply(f" تم انهاء مكالمة الفيديو مدتها دقيقتين 🎸 ⋅")
         elif 3 <= ma[0] < 11:
-            await message.reply(f"تم انهاء مكالمة الفيديو مدتها {ma[0]} دقايق 🌺 ⋅")  
+            await message.reply(f"تم انهاء مكالمة الفيديو مدتها {ma[0]} دقايق 🎸 ⋅")  
         else:
-            await message.reply(f"تم إنهاء مكالمة الفيديو مدتها {ma[0]} دقيقه 🌺 ⋅")
+            await message.reply(f"تم إنهاء مكالمة الفيديو مدتها {ma[0]} دقيقه 🎸 ⋅")
     elif 3600 < da < 86400:
         if 1 <= ho[0] < 2:
-            await message.reply(f"تم انهاء مكالمة الفيديو مدتها ساعه 🌺 ⋅")
+            await message.reply(f"تم انهاء مكالمة الفيديو مدتها ساعه 🎸 ⋅")
         elif 2 <= ho[0] < 3:
-            await message.reply(f"تم انهاء مكالمة الفيديو مدتها ساعتين 🌺 ⋅")
+            await message.reply(f"تم انهاء مكالمة الفيديو مدتها ساعتين 🎸 ⋅")
         elif 3 <= ho[0] < 11:
-            await message.reply(f"تم انهاء مكالمة الفيديو مدتها {ho[0]} ساعات 🌺 ⋅")  
+            await message.reply(f"تم انهاء مكالمة الفيديو مدتها {ho[0]} ساعات 🎸 ⋅")  
         else:
-            await message.reply(f"تم إنهاء مكالمة الفيديو مدتها {ho[0]} ساعة 🌺 ⋅")
+            await message.reply(f"تم إنهاء مكالمة الفيديو مدتها {ho[0]} ساعة 🎸 ⋅")
     else:
         if 1 <= day[0] < 2:
-            await message.reply(f"تم انهاء مكالمة الفيديو مدتها يوم 🌺 ⋅")
+            await message.reply(f"تم انهاء مكالمة الفيديو مدتها يوم 🎸 ⋅")
         elif 2 <= day[0] < 3:
-            await message.reply(f" تم انهاء مكالمة الفيديو مدتها يومين 🌺 ⋅")
+            await message.reply(f" تم انهاء مكالمة الفيديو مدتها يومين 🎸 ⋅")
         elif 3 <= day[0] < 11:
-            await message.reply(f" تم انهاء مكالمة الفيديو مدتها {day[0]} ايام 🌺 ⋅")  
+            await message.reply(f" تم انهاء مكالمة الفيديو مدتها {day[0]} ايام 🎸 ⋅")  
         else:
-            await message.reply(f" تم إنهاء مكالمة الفيديو مدتها {day[0]} يوم 🌺 ⋅")
+            await message.reply(f" تم إنهاء مكالمة الفيديو مدتها {day[0]} يوم 🎸 ⋅")
             
 @app.on_message(filters.video_chat_members_invited)
 async def fuckoff(client, message):
@@ -113,4 +113,4 @@ async def fuckoff(client, message):
 #𝙲𝙷.𝚂𝙾𝚄𝚁𝙲𝙴 : @WA_ADRENALEN
 #𝙳𝙴𝚅 𝙰𝙳𝚁𝙴𝙽𝙰𝙻𝙴𝙽 : @DEV_ADRENALEN
 #𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @BAR_ADRENALEN
-#Omar AdRenalen تم التعديل بواسطة 🌺 ⋅
+#Omar AdRenalen تم التعديل بواسطة 🎸 ⋅

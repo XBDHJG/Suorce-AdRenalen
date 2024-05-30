@@ -57,7 +57,7 @@ REPLY_MESSAGE_BUTTONS = [
 
   
 
-@app.on_message(filters.regex("^/nemo"), group=39)
+@app.on_message(filters.regex("^/start"), group=39)
 async def cpanel(_, message: Message):             
         text = REPLY_MESSAGE
         reply_markup = ReplyKeyboardMarkup(REPLY_MESSAGE_BUTTONS, resize_keyboard=True, selective=True)
@@ -66,7 +66,7 @@ async def cpanel(_, message: Message):
               reply_markup=reply_markup
         )
 
-@app.on_message(filters.regex("اقفل الكيب"))
+@app.on_message(filters.regex("اغلاق الكيبورد"))
 async def down(client, message):
-          m = await message.reply("تم اغلاق الكيب بنجاح 💘 ⋅ ", reply_markup= ReplyKeyboardRemove(selective=True))
+          m = await message.reply("تم اغلاق الكيبورد بنجاح 💘 ⋅ ", reply_markup= ReplyKeyboardRemove(selective=True))
 
