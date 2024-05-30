@@ -8,7 +8,7 @@ from ..logging import LOGGER
 
 class Omar(Client):
     def __init__(self):
-        LOGGER("ميوزك  نيمو").info(f"جاري بد تشغيل البوت. . .")
+        LOGGER("ميوزك مارڤين").info(f"جاري بد تشغيل البوت. . .")
         super().__init__(
             name="AdRenalen",
             api_id=config.API_ID,
@@ -48,7 +48,7 @@ class Omar(Client):
                 "ارفع البوت مشرف في جروب الدعم مع كل الصلاحيات "
             )
             exit()
-        LOGGER("ميوزك  نيمو ").info(f" تم بدء تشغيل البوت {self.name}")
+        LOGGER("ميوزك مارڤين ").info(f" تم بدء تشغيل البوت {self.name}")
 
     async def stop(self):
         await super().stop()
