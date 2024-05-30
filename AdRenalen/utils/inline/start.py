@@ -19,7 +19,7 @@ def start_panel(_):
         ],
         [
          
-            InlineKeyboardButton(text="- ع ُ ــمر أدرينألين 🎸 ⋅", url=f"https://t.me/DEV_AdRenalen"),
+            InlineKeyboardButton(text="- مـبـرمجـيـن الـسـورس 🎸 ⋅", url=f"https://t.me/DEV_MARVEN"),
         ],
     ]
     return buttons
@@ -40,7 +40,7 @@ def private_panel(_):
         ],
         [
          
-            InlineKeyboardButton(text="- ع ُ ــمر أدرينألين 🎸 ⋅", url=f"https://t.me/DEV_AdRenalen"),
+            InlineKeyboardButton(text="- مـبـرمجـيـن الـسـورس 🎸 ⋅", url=f"https://t.me/DEV_MARVEN"),
         ],
     ]
     return buttons
