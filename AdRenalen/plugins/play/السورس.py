@@ -51,7 +51,7 @@ async def huhh(client: Client, message: Message):
 
 
 
-@app.on_message(filters.command(["مطور السورس","ناروتو"], ""), group=221212)
+@app.on_message(filters.command(["مودي","moody"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/6d43ed90307453f7cbc6f.jpg",
@@ -74,7 +74,7 @@ async def huhh(client: Client, message: Message):
          ),
      )
 
-@app.on_message(filters.command(["مبرمج السورس","ديڤل"], ""), group=221212)
+@app.on_message(filters.command(["مبرمج السورس","ديفل","مطور السورس"), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1ed441c02d9f8972b9e40.jpg",
@@ -101,73 +101,9 @@ async def huhh(client: Client, message: Message):
 async def huhh(client: Client, message: Message):
     await message.reply_photo( 
       photo=f"https://telegra.ph/file/81471e464fd78152dbdec.jpg",
-        caption=f"""• ⌯ 𝐓𝐇𝐄.𝐒𝐎𝐔𝐑𝐂𝐄.𝐀𝐃𝐑𝐄𝐍𝐀𝐋𝐄𝐍 ⌯ •\n- سولو الـ شء 💘😂 ⋅""",
+        caption=f"""• ⌯ 𝐓𝐇𝐄.𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧 ⌯ •\n- سولو الـ شء 💘😂 ⋅""",
         reply_markup=InlineKeyboardMarkup(
-        [
-            [
-                    InlineKeyboardButton(
-                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
-                ],[
-                    InlineKeyboardButton(
-                        "⌯ سولو الـ تونز 💘 ⋅ ⌯", url=f"https://t.me/HA_RY2"), 
-                    InlineKeyboardButton(
-                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
-                ],[
-                    InlineKeyboardButton(
-                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
-            ]
-        ]
-         ),
-     )
-
-@app.on_message(filters.command(["lllllll","lllllll"], ""), group=221212)
-async def huhh(client: Client, message: Message):
-    await message.reply_photo( 
-      photo=f"https://telegra.ph/file/1d76ff4496515c122c251.jpg",
-        caption=f"""• ⌯ 𝐓𝐇𝐄.𝐒𝐎𝐔𝐑𝐂𝐄.𝐀𝐃𝐑𝐄𝐍𝐀𝐋𝐄𝐍 ⌯ •\n- فرعون الـ شء 💘😂 ⋅""",
-        reply_markup=InlineKeyboardMarkup(
-        [
-            [
-                    InlineKeyboardButton(
-                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
-                ],[
-                    InlineKeyboardButton(
-                        "⌯ فـرعون الـ تونز 💘 ⋅ ⌯", url=f"https://t.me/DEV_FAR3ON"), 
-                    InlineKeyboardButton(
-                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
-                ],[
-                    InlineKeyboardButton(
-                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
-            ]
-        ]
-         ),
-     )
-     
-
-
-    
-@app.on_message(filters.command(["kkkkkk","kkkkkk"], ""), group=221212)
-async def huhh(client: Client, message: Message):
-    await message.reply_photo( 
-      photo=f"https://telegra.ph/file/783c1ff05a1480c023f9e.jpg",
-        caption=f"""• ⌯ 𝐓𝐇𝐄.𝐒𝐎𝐔𝐑𝐂𝐄.𝐀𝐃𝐑𝐄𝐍𝐀𝐋𝐄𝐍 ⌯ •\n- فيرس الـ شء 💘😂 ⋅""",
-        reply_markup=InlineKeyboardMarkup(
-        [
-            [
-                    InlineKeyboardButton(
-                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
-                ],[
-                    InlineKeyboardButton(
-                        "⌯ فيرس الـ تونز 💘 ⋅ ⌯", url=f"https://t.me/Xx_VAiRS_xX"), 
-                    InlineKeyboardButton(
-                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
-                ],[
-                    InlineKeyboardButton(
-                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
-            ]
-        ]
-         ),
-     )
+        
 
 @app.on_message(filters.command(["اسمي","اسمي اي","قول اسمي"], ""), group=123222)
 async def vgdg(client: Client, message: Message):
