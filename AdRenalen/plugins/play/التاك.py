@@ -23,7 +23,7 @@ async def nummmm(client: app, message):
   if not chek.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
     await message.reply("الامر دا للمشرفين بس 💘 ⋅")
     return
-  await message.reply_text("جار بدء المنشن لايقاف التشغيل اكتب ⦗ ايقاف التاك ⦘ 💘 ⋅")
+  await message.reply_text("جار بدء المنشن لايقاف التشغيل اكتب ⦗ بس يبوت ⦘ 💘 ⋅")
   i = 0
   txt = ""
   zz = message.text
@@ -61,7 +61,7 @@ async def nummmm(client: app, message):
   array.remove(message.chat.id)
 
 
-@app.on_message(filters.command(["ايقاف المنشن","تعطيل المنشن","/cancel", "ايقاف التاك"], ""), group=822)
+@app.on_message(filters.command(["ايقاف المنشن","تعطيل المنشن","/cancel", "بس يبوت"], ""), group=822)
 async def stop(client, message):
   chek = await client.get_chat_member(message.chat.id, message.from_user.id)
   if not chek.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
