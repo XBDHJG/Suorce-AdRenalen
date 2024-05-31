@@ -96,7 +96,7 @@ async def show_quran(c,cq):
     per_name = quran[number]["sounds"][i]["name"]
     file = requests.get(quran[number]["sounds"][i]["url"]).content
     open(f"{name}.mp3","wb").write(file)
-    await app.send_audio(cq.message.chat.id,f"{name}.mp3",f"- سورة {name} بصوت الشيخ {per_name}\n- powered by : @z0hary ",reply_markup = ikm([[ikb(". تشغيل .", callback_data=f"done-{number}-{i}")]]))
+    await app.send_audio(cq.message.chat.id,f"{name}.mp3",f"- سورة {name} بصوت الشيخ {per_name}\n- powered by : @SOURCE_MARVEN ",reply_markup = ikm([[ikb(". تشغيل .", callback_data=f"done-{number}-{i}")]]))
 
 
 @app.on_callback_query(filters.regex("done") & ~BANNED_USERS)
