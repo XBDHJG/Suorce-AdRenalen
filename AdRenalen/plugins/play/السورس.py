@@ -51,7 +51,7 @@ async def huhh(client: Client, message: Message):
 
 
 
-@app.on_message(filters.command(["مودي","moody"], ""), group=221212)
+@app.on_message(filters.command(["مودي","مطور السورس"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/6d43ed90307453f7cbc6f.jpg",
@@ -74,7 +74,7 @@ async def huhh(client: Client, message: Message):
          ),
      )
 
-@app.on_message(filters.command(["مبرمج السورس","ديفل","مطور السورس"), group=221212)
+@app.on_message(filters.command(["مبرمج السورس","ديفل"), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1ed441c02d9f8972b9e40.jpg",
