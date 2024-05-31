@@ -48,7 +48,7 @@ REPLY_MESSAGE_BUTTONS = [
         ("حساب العمر")
     ],    
     [
-        ("اغلاق الكيبورد")
+        ("اقفل الكيبورد")
     ]
   
 ]
@@ -66,7 +66,7 @@ async def cpanel(_, message: Message):
               reply_markup=reply_markup
         )
 
-@app.on_message(filters.regex("اغلاق الكيبورد"))
+@app.on_message(filters.regex("اقفل الكيبورد"))
 async def down(client, message):
-          m = await message.reply("تم اغلاق الكيبورد بنجاح 💘 ⋅ ", reply_markup= ReplyKeyboardRemove(selective=True))
+          m = await message.reply("تم قفل الكيبورد بنجاح 💘 ⋅ ", reply_markup= ReplyKeyboardRemove(selective=True))
 
