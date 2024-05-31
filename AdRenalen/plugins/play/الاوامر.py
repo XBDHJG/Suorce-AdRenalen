@@ -20,7 +20,7 @@ async def zdatsr(client: Client, message: Message):
     usr = await client.get_users(OWNER_ID)
     name = usr.first_name
     usrnam = usr.username
-    await message.reply_photo("https://telegra.ph/file/814dd1f4e602e5049202b.jpg",
+    await message.reply_photo("",
         photo=f"https://telegra.ph/file/814dd1f4e602e5049202b.jpg",
         caption=f"""مرحبا بك عزيزي في اوامر بوت الميوزك 🎸 ⋅\n- اسمك : {message.from_user.mention} 💘 ⋅\n- عليك استخدام الازرار بالاسفل لتصفح اوامر الميوزك 🎸 ⋅ \n\n• ⌯ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐌𝐀𝐑𝐕𝐄𝐍 ⌯ • </b>""",
         reply_markup=InlineKeyboardMarkup(
