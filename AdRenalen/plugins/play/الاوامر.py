@@ -45,7 +45,7 @@ async def cr_source(client: Client, message: Message):
     )
     
 @app.on_callback_query(filters.regex("zzzback"))
-async def zzzback(_, query: CallbackQuery):
+async def zdatsr(client: Client, message: Message):
    await query.edit_message_text(
        f"""<b>⭓ ميوزك مارڤين♪\n<b>⍟ سورس ميوزك مارڤين""",
         reply_markup=InlineKeyboardMarkup(
