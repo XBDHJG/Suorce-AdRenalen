@@ -74,7 +74,7 @@ async def huhh(client: Client, message: Message):
          ),
      )
 
-@app.on_message(filters.command(["مبرمج السورس","ديفل"), group=221212)
+@app.on_message(filters.command(["ديفل","مبرمج السورس"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1ed441c02d9f8972b9e40.jpg",
