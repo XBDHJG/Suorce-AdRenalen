@@ -96,13 +96,6 @@ async def huhh(client: Client, message: Message):
         ]
          ),
      )
-
-@app.on_message(filters.command(["oooo","pppppp"], ""), group=221212)
-async def huhh(client: Client, message: Message):
-    await message.reply_photo( 
-      photo=f"https://telegra.ph/file/81471e464fd78152dbdec.jpg",
-        caption=f"""• ⌯ 𝐓𝐇𝐄.𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧 ⌯ •\n- سولو الـ شء 💘😂 ⋅""",
-        reply_markup=InlineKeyboardMarkup(
         
 
 @app.on_message(filters.command(["اسمي","اسمي اي","قول اسمي"], ""), group=123222)
