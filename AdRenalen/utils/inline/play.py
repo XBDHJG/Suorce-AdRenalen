@@ -68,7 +68,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="⦗ تخطي ‣‣I ⦘", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="⦗ ايقاف ▢ ⦘", callback_data=f"ADMIN Stop|{chat_id}"),
         ],[
-            InlineKeyboardButton(text="• ⌯ 𝐒𝐎𝐔𝐑𝐂𝐄.𝐀𝐃𝐑𝐄𝐍𝐀𝐋𝐄𝐍 ⌯ •", url=f"https://t.me/SOURCE_MARVEN"),
+            InlineKeyboardButton(text="• ⌯ 𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧 ⌯ •", url=f"https://t.me/SOURCE_MARVEN"),
         ],[
             InlineKeyboardButton(text="اضف البوت الي جروبك او قناتك 🎸 ⋅", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
