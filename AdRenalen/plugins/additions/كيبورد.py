@@ -80,7 +80,7 @@ async def cpanel(_, message: Message):
               reply_markup=reply_markup
         )
 
-@app.on_message(filters.regex("اقفل االكيب))
+@app.on_message(filters.regex("اقفل االكيب"))
 async def down(client, message):
           m = await message.reply("تم قفل الكيب بنجاح 💘 ⋅ ", reply_markup= ReplyKeyboardRemove(selective=True))
 
