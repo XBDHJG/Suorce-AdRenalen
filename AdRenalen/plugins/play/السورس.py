@@ -44,7 +44,7 @@ async def huhh(client: Client, message: Message):
                         "‹ 𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐞𝐍 ›", url=f"https://t.me/SOURCE_MARVEN"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"https://t.me/{bot_username}?startgroup=True"),
+                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/@DffD1bot?startgroup=new"),
             ]
         ]
          ),parse_mode=enums.ParseMode.MARKDOWN)
