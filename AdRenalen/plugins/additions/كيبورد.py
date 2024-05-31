@@ -34,7 +34,18 @@ REPLY_MESSAGE_BUTTONS = [
     [
         ("مطور السورس"),
     ],
-   
+    [
+        ("ااستوي),
+        ("كت")
+    ],
+    [
+        ("اسالني"),
+        ("بايو")
+    ],
+    [
+        ("قران"),
+        ("حروف")
+    ],
     [
         ("تويت"),
         ("صراحه")
@@ -51,7 +62,7 @@ REPLY_MESSAGE_BUTTONS = [
         ("حساب العمر")
     ],    
     [
-        ("اقفل الكيبورد")
+        ("اقفل الكيب")
     ]
   
 ]
@@ -69,7 +80,7 @@ async def cpanel(_, message: Message):
               reply_markup=reply_markup
         )
 
-@app.on_message(filters.regex("اقفل الكيبورد"))
+@app.on_message(filters.regex("اقفل االكيب))
 async def down(client, message):
-          m = await message.reply("تم قفل الكيبورد بنجاح 💘 ⋅ ", reply_markup= ReplyKeyboardRemove(selective=True))
+          m = await message.reply("تم قفل الكيب بنجاح 💘 ⋅ ", reply_markup= ReplyKeyboardRemove(selective=True))
 
