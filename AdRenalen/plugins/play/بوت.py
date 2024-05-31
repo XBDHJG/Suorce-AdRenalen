@@ -41,7 +41,7 @@ caesar_responses = [
         ])
         
         await message.reply_text(
-            text=f"**[{bar}](https://t.me/{bot_username}?startgroup=True)**",
+            text=f"**[{bar}](https://t.me/DffD1bot?startgroup=True)**",
             disable_web_page_preview=True,
             reply_markup=keyboard,
         parse_mode=enums.ParseMode.MARKDOWN)
