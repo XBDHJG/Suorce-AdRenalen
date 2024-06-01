@@ -102,8 +102,7 @@ async def huhh(client: Client, message: Message):
 async def vgdg(client: Client, message: Message):
     await message.reply_text(
         f"""- اسمك » ⦗ {message.from_user.mention} ⦘ 💘 ⋅""") 
-
-pyrogram import Client as app __main__
+pyrogram import Client as app
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.enums import ChatMemberStatus, ChatMemberStatus
 
