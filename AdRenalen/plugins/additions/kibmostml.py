@@ -16,12 +16,12 @@ from random import  choice, randint
 
 
 
-@app.on_message(filters.command(["غنيلي", "غني", "✨غنيلي", "غنيي"], ""))
+@app.on_message(command([f"صوره", "صورة", "صور"]))
 async def ihd(client: Client, message: Message):
-    rl = random.randint(2,90)
-    url = f"https://t.me/gukygn/{rl}"
-    await client.send_voice(message.chat.id,url,caption="🐉 ¦ تـم اختيـار الاغـنـية لـك",parse_mode=enums.ParseMode.HTML)
-    reply_markup=InlineKeyboardMarkup(
+    rl = random.randint(2,50)
+    url = f"https://t.me/vnnkli/{rl}"
+    await client.send_photo(message.chat.id,url,caption="- Join.Channel.SouRce : @SOURCE_MARVEN ⋅",
+reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
@@ -29,7 +29,7 @@ async def ihd(client: Client, message: Message):
                 ],
             ]
         )
-
+                           
 
 @app.on_message(filters.command(["صوره", "✨صوره", "صورهه", "صور"], ""
 async def ihd(client: Client, message: Message):
