@@ -173,7 +173,7 @@ async def ihd(client: Client, message: Message):
             ]
         )
 
-@app.on_message(filters.command(["استوري", "استوريهات", "ستوري"))
+@app.on_message(filters.command(["استوري","استوريهات","ستوري"], ""))
 async def ihd(client: Client, message: Message):
     rl = random.randint(1,50)
     url = f"https://t.me/yoipopl/{rl}"
