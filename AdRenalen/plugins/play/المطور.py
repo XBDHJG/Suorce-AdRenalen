@@ -12,5 +12,16 @@ async def maker(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "- مطور البوت .", url=f"tg://openmessage?user_id={config.OWNER_ID}"
+                                           "- مطور البوت .", url=f"tg://openmessage?user_id={config.OWNER_ID}"
                     ),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "- قناة السورس . ", url=f"https://t.me/SOURCE_MARVEN"
+                    ),
+                ],
+            ]
+        ),
+    )
+
+
