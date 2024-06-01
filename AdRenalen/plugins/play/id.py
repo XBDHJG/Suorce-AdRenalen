@@ -27,7 +27,7 @@ async def iddopen(client: Client, message):
    else:
       return await message.reply_text("**عذرا عزيزي هذا الامر للادمن الجروب فقط .**")
 
-@app.on_message(filters.command(["ايدي"], ""))
+@app.on_message(filters.command(["ايدي","ا"], ""))
 async def muid(client: Client, message):
        if message.chat.id in iddof:
          return await message.reply_text("**تم تعطيل امر الايدي من قبل المشرفين .**")
@@ -41,7 +41,7 @@ async def muid(client: Client, message):
        if not id.get(message.from_user.id):
          id[user.id] = []
        idd = len(id[user.id])
-       await message.reply_photo(photo=photo, caption=f"**name : {first_name}\nid : {user_id}\nuser : [@{username}]\nbio : {bioo}**",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"{idd} 🤍", callback_data=f"heart{user_id}")],]),)
+       await message.reply_photo(photo=photo, caption=f"**name : {first_name}\nid : {user_id}\nuser : [@{username}]\nbio : {bioo}**",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"{idd} ❤", callback_data=f"heart{user_id}")],]),)
             
 
 
@@ -57,4 +57,4 @@ async def heart(client, query: CallbackQuery):
     else:
          id[usr.id].remove(query.from_user.mention)
     idd = len(id[usr.id])
-    await query.edit_message_text(f"**name : {usr.first_name}\nid : {usr.id}\nuser : [@{usr.username}]\nbio : {usr.bio}**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"{idd} 🤍", callback_data=f"heart{usr.id}")]]))
+    await query.edit_message_text(f"**name : {usr.first_name}\nid : {usr.id}\nuser : [@{usr.username}]\nbio : {usr.bio}**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"{idd} ❤", callback_data=f"heart{usr.id}")]]))
