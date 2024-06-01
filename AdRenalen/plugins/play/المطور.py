@@ -15,4 +15,3 @@ async def maker(client: Client, message: Message):
                         "- مطور البوت .", url=f"tg://openmessage?user_id={config.OWNER_ID}"
                     ),
                 ],
-                [
