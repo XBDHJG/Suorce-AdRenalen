@@ -1,7 +1,6 @@
 from pyrogram import filters
 from AdRenalen.utils.admin_check import admin_check
 
-
 USE_AS_BOT = True
 
 def f_sudo_filter(filt, client, message):
