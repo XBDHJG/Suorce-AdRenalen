@@ -103,7 +103,7 @@ async def vgdg(client: Client, message: Message):
     await message.reply_text(
         f"""- اسمك » ⦗ {message.from_user.mention} ⦘ 💘 ⋅""") 
 
-pyrogram import Client as app
+pyrogram import Client as app __main__
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.enums import ChatMemberStatus, ChatMemberStatus
 
