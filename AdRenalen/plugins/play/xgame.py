@@ -6,13 +6,13 @@ from ANNIEMUSIC import app
 import re
 import sys
 
-GAME_MESSAGE = "⚞⌁⌁⌁⌁⌁⌁᚜ ᖇᥱᥲ️ᥣ ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب ريل\n\n⚞⌁⌁⌁⌁⌁⌁᚜ ᖇᥱᥲ️ᥣ ᚛⌁⌁⌁⌁⌁⌁⚟"
+GAME_MESSAGE = "⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب ريل\n\n⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-        InlineKeyboardButton ('𝗥𝗘𝗔𝗟', callback_data= 'GAME2'),
+        InlineKeyboardButton ('𝐌𝐚𝐑𝐯𝐄𝐧', callback_data= 'GAME2'),
         ],[
-        InlineKeyboardButton ('𝗥𝗘𝗔𝗟 𝗦𝗼𝘂𝗿𝗰𝗲', url =f"https://t.me/CBSOURCE")              
+        InlineKeyboardButton ('𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧', url =f"https://t.me/SOURCE_MARVEN")              
                  ],[
                 InlineKeyboardButton(
                         "◁", callback_data="close"),
@@ -313,7 +313,7 @@ async def almortagel(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "⚞⌁⌁⌁⌁⌁⌁᚜ ᖇᥱᥲ️ᥣ ᚛⌁⌁⌁⌁⌁⌁⚟\n\nمرحبا بك في قسم العاب ريل 3D\n\n⚞⌁⌁⌁⌁⌁⌁᚜ ᖇᥱᥲ️ᥣ ᚛⌁⌁⌁⌁⌁⌁⚟"
+             GAME1_MESSAGE = "⚞⌁⌁⌁⌁⌁⌁᚜ 𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟\n\nمرحبا بك في قسم العاب ريل 3D\n\n⚞⌁⌁⌁⌁⌁⌁᚜ 𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟"
 
              GAME1_BUTTONS = [
                  [
@@ -357,14 +357,14 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "⚞⌁⌁⌁⌁⌁⌁᚜ ᖇᥱᥲ️ᥣ ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦مرحبا بك في قسم العاب ريل\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⚞⌁⌁⌁⌁⌁⌁᚜ ᖇᥱᥲ️ᥣ ᚛⌁⌁⌁⌁⌁⌁⚟" 
+               RETURN_GAME = "⚞⌁⌁⌁⌁⌁⌁᚜ 𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦مرحبا بك في قسم العاب مارڤين\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟" 
 
                RETURN_BUTTON = [
                     [ 
                       InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-                      InlineKeyboardButton ('★¦العاب ريل', callback_data= 'GAME2')
+                      InlineKeyboardButton ('★¦العاب مارڤين', callback_data= 'GAME2')
                       ],[
-        InlineKeyboardButton ('𝗥𝗘𝗔𝗟 𝗦𝗼𝘂𝗿𝗰𝗲', url =f"https://t.me/CBSOURCE")              
+        InlineKeyboardButton ('𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧', url =f"https://t.me/SOURCE_MARVEN")              
                  ],[
                 InlineKeyboardButton(
                         "◁", callback_data="close"),
@@ -377,11 +377,11 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⚞⌁⌁⌁⌁⌁⌁᚜ ᖇᥱᥲ️ᥣ ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦العاب ريل\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⚞⌁⌁⌁⌁⌁⌁᚜ ᖇᥱᥲ️ᥣ ᚛⌁⌁⌁⌁⌁⌁⚟." 
+               SOURCE_GAME = "⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦العاب ريل\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟." 
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('𝗥𝗘𝗔𝗟 𝗦𝗼𝘂𝗿𝗰𝗲', url =f"https://t.me/CBSOURCE")
+                      InlineKeyboardButton ('𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧', url =f"https://t.me/CBSOURCE")
                       ],[
                          InlineKeyboardButton ('◁', callback_data= 'GAME')
                     ]
