@@ -4,7 +4,7 @@ import random
 import requests
 from AdRenalen import app 
 
-SUPPORT_CHAT = "CBSOURCE"
+SUPPORT_CHAT = "SOURCE_MARVEN"
 
 @app.on_message(filters.command(['امنية','امنيه'], prefixes=""))
 async def wish(_, m):
