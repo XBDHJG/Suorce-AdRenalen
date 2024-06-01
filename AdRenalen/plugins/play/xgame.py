@@ -305,7 +305,7 @@ async def kaompj(client, message):
 )
 async def almortagel(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/7d49de198bb4856916686.jpg",
+        photo=f"https://telegra.ph/file/d7f84f3abf21196ccd7e5.jpg",
         caption= GAME_MESSAGE,
         reply_markup=InlineKeyboardMarkup(GAME_BUTTONS)
     )  
@@ -377,11 +377,11 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦العاب ريل\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟." 
+               SOURCE_GAME = "⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦العاب مارڤين\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟." 
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧', url =f"https://t.me/CBSOURCE")
+                      InlineKeyboardButton ('𝐒𝐨𝐔𝐫𝐂𝐞 𝐌𝐚𝐑𝐯𝐄𝐧', url =f"https://t.me/SOURCE_MARVEN")
                       ],[
                          InlineKeyboardButton ('◁', callback_data= 'GAME')
                     ]
