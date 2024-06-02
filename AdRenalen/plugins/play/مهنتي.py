@@ -3,6 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from AdRenalen import app
 from config import OWNER_ID
+from AdRenalen import app
 
 @app.on_message(filters.command(['مهنتي','✨مهنتي'], prefixes=""))
 def get_user_info(_, message):
