@@ -6,7 +6,7 @@ from AdRenalen import app
 import re
 import sys
 
-GAME_MESSAGE = "⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب ريل\n\n⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟"
+GAME_MESSAGE = "⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب مارڤين\n\n⚞⌁⌁⌁⌁⌁⌁᚜ 𝐌𝐚𝐑𝐯𝐄𝐧 ᚛⌁⌁⌁⌁⌁⌁⚟"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
