@@ -305,7 +305,7 @@ async def kaompj(client, message):
 )
 async def almortagel(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/d7f84f3abf21196ccd7e5.jpg",
+        photo=f"https://telegra.ph/file/73917b8c4f4f1db1097d2.jpg",
         caption= GAME_MESSAGE,
         reply_markup=InlineKeyboardMarkup(GAME_BUTTONS)
     )  
