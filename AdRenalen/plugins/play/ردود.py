@@ -502,7 +502,7 @@ async def caesar(client: Client, message: Message):
         f"{a}")   
 
 cchtxt = [
-" نكتك وجريت 😂♥️♥️♥️♥️♥️ ،"
+"  نورت 😂♥️♥️♥️♥️♥️ ،"
         ]
 
 @app.on_message(filters.command(["جيت"], ""), group=2000273)
