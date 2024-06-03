@@ -11,11 +11,11 @@ bot = Client(
     plugins=dict(root="MZombie")
     )
 
-DEVS = ["p_m_4","Zo_Mbi_e","G_O_OZ"] 
+DEVS = ["p_m_4","Maker_Marvenbot","G_O_OZ"] 
 
 bot_id = bot.bot_token.split(":")[0]
 
-async def start_zombiebot():
+async def start_Maker_Marvenbot():
     print("تم تشغيل الصانع بنجاح..💗")
     await bot.start()
     for hh in DEVS:
