@@ -3,7 +3,7 @@ from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import InlineKeyboardMarkup as mk, InlineKeyboardButton as btn
 from pyrogram.types import ChatPermissions
 import time
-from AdRenalen import Client as cl
+from AdRenalen import app
 from .is_admin import admin,add_msg,owner
 data = cl("protect")
 db = data['data']
